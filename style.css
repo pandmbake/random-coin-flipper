@@ -43,5 +43,41 @@ h1 {
     font-size: 1.5em;
     justify-content: center;
     align-items: center;
-    cursor: pointer; 
+    cursor: pointer;
+    
+
+}
+
+@media screen and (max-width: 500px) {
+    #tails {
+        width: 10em;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        display: none
+      }
+      
+      #heads {
+          width: 10em;
+          height: auto;
+          display: flex;
+          margin: 0 auto; 
+      }
+      
+      #spin {
+          display: flex;
+          display: none;
+          width: 15em;
+          height: auto;
+          margin: 0 auto;
+      }
+      
+      h1 {
+        font-family: 'Rampart One', cursive; 
+        text-align: center;
+        margin-top: .5em;
+        margin-bottom: 1em;
+        font-size: 3em;
+    }
+    
 }
