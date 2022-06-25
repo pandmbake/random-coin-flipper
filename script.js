@@ -22,7 +22,5 @@ function flip (event) {
         document.getElementById("button").style.display = 'flex';
         
       }
-
-
-      
+   
     }
