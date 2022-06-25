@@ -1,1 +1,49 @@
+body {
+    font-family: 'Rampart One', cursive;
+    background-color: azure;
+}
 
+h1 {
+    font-family: 'Rampart One', cursive; 
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 3em;
+}
+
+#tails {
+  width: 15em;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  display: none
+}
+
+#heads {
+    width: 15em;
+    height: auto;
+    display: flex;
+    margin: 0 auto; 
+}
+
+#spin {
+    display: flex;
+    display: none;
+    width: 20em;
+    height: auto;
+    margin: 0 auto;
+}
+
+#button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3em;
+    width: 4em;
+    height: 2em;
+    font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+
+}
